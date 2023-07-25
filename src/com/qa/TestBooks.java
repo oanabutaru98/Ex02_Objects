@@ -19,5 +19,17 @@ public class TestBooks {
         for (int i=0; i<bookArray.length; i++) {
             System.out.println(bookArray[i]);
         }
+
+        Car c1 = new Car("Ferrari", "red", 2021, 200);
+        Car c2 = new Car("Mercedes", "grey", 2021, 250);
+
+        System.out.println(c1);
+        System.out.println(c2);
+
+        c1.accelerate(50);
+        System.out.println(c1);
+
+        c2.setColor("black");
+        System.out.println(c2);
     }
 }
